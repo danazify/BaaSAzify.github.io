@@ -1,1 +1,26 @@
 
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Minha API Sandbox",
+    "version": "1.0.0",
+    "description": "Documentação inicial da API"
+  },
+  "servers": [
+    {
+      "url": "https://api-sandbox.seudominio.com"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Health check",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
