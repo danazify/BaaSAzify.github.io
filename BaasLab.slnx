@@ -1,2 +1,8 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BaasLab.Api/BaasLab.Api.csproj" />
+    <Project Path="src/BaasLab.Application/BaasLab.Application.csproj" />
+    <Project Path="src/BaasLab.Domain/BaasLab.Domain.csproj" />
+    <Project Path="src/BaasLab.Infrastructure/BaasLab.Infrastructure.csproj" />
+  </Folder>
 </Solution>
